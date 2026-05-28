@@ -1,0 +1,18 @@
+# Obsidian workspace & cache files (no need to track these)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/**/data.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary / swap files
+*.tmp
+*.bak
+*~
+
+# Node modules (if any Obsidian plugins are locally built)
+node_modules/

@@ -31,7 +31,7 @@ Right now:
 
 For future pushes, use Git Credential Manager instead of pasting tokens in chat:
 
-> [!info]
+> [!warning]
 > Git Credential Manager (GCM) is already bundled with Git for Windows. It securely stores your credentials in Windows Credential Manager so you never have to type/paste a token again.
 
 Run this once in your terminal:

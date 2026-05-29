@@ -16,6 +16,7 @@ relevant:
 
 [[How to write a great README for your GitHub project]]
 [[Creating Great README Files for Your Python Projects]]
+[write docstring in python](https://realpython.com/how-to-write-docstrings-in-python/)
 
 Welcome to your complete guide to documenting Python code. Whether you’re documenting a small script or a large project, whether you’re a [beginner](https://realpython.com/python-beginner-tips/) or a seasoned Pythonista, this guide will cover everything you need to know.
 
@@ -23,8 +24,8 @@ We’ve broken up this tutorial into four major sections:
 
 Feel free to read through this tutorial from beginning to end or jump to a section you’re interested in. It was designed to work both ways.
 
-==**Take the Quiz:**== Test your knowledge with our interactive “Documenting Python Code: A Complete Guide” quiz. You’ll receive a score upon completion to help you track your learning progress:
-
+**Take the Quiz:** Test your knowledge with our interactive “Documenting Python Code: A Complete Guide” quiz. You’ll receive a score upon completion to help you track your learning progress:
+s
 ---
 
 [![Documenting Python Code Guide](https://realpython.com/cdn-cgi/image/width=1920,format=auto/https://files.realpython.com/media/Documenting-Python-Code_Watermarked.0b26408a1b7f.jpg)](https://realpython.com/quizzes/documenting-python-code/)
@@ -466,7 +467,6 @@ You may have noticed that, throughout the examples given in this tutorial, there
 | [reStructuredText](http://docutils.sourceforge.net/rst.html) | Official Python documentation standard; Not beginner friendly but feature rich | Yes | Yes |
 | [NumPy/SciPy docstrings](https://numpydoc.readthedocs.io/en/latest/format.html) | NumPy’s combination of reStructuredText and Google Docstrings | Yes | Yes |
 | [Epytext](http://epydoc.sourceforge.net/epytext.html) | A Python adaptation of Epydoc; Great for Java developers | Not officially | Yes |
-
 The selection of the docstring format is up to you, but you should stick with the same format throughout your document/project. The following are examples of each type to give you an idea of how each documentation format looks.
 
 #### Google Docstrings Example

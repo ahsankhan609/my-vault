@@ -9,6 +9,7 @@ description: In this guide, we'll explain what sudo !!, fc, and history shortcut
 tags:
   - "#bash"
   - "#shortcuts"
+  - commands
 ---
 ***You’ve been retyping the same long commands for years, but `sudo !!`, `!$`, `^old^new`, and a handful of Bash history tricks can cut that habit down to almost nothing and this guide covers every one of them with real examples.***
 

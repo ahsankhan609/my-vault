@@ -11,7 +11,7 @@
 | ----------- | ---------------------------- | ----------------- | --------------------------- |
 | `useradd`   | `useradd [options] username` | `useradd john`    | Add `-m` to create home dir |
 | `userdel`   | `userdel [options] username` | `userdel -r john` | Use `-r` to remove home dir |
-### Why useradd vs adduser?
+###  `useradd` vs `adduser`?
 `useradd` is the low-level tool. `adduser` is a wrapper...
 
 ---

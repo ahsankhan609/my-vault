@@ -4,13 +4,13 @@ Based on my research, **the latest MacBook Pro models available as of May 2026 a
 
 ### MacBook Pro M1–M5 Comparison
 
-| **Model** | **Release** | **Starting Price** | **CPU Performance vs M1** | **GPU Performance** | **Key Merit** | **Key Drawback** |
-|---|---|---|---|---|---|---|
-| **M1 Pro** | Oct 2021 | ~$2,000* | Baseline (1.0x) | Baseline | Pioneering Apple Silicon; excellent value | Limited AI capabilities; older thermal design |
-| **M2 Pro** | Jan 2023 | ~$2,000* | +20% faster | +41% faster | Better efficiency; improved thermal performance | Minimal leap from M1; incremental gains |
-| **M3 Pro** | Nov 2023 | ~$2,000* | +50% faster | +45% faster | Hardware ray tracing for 3D work; first-gen dynamic cache | Reduced memory bandwidth vs M2; lower Pro specs than M2 Max |
-| **M4 Pro** | May 2024 | ~$2,000* | +65% faster | +75% faster | Huge AI jump (38 TOPS); best gaming performance yet | Gets hot under sustained load |
-| **M5 Pro (current)** | Mar 2026 | $2,199 | **~2x faster than M1 Pro** | **~2x faster than M1 Pro** | Thunderbolt 5; up to 2x SSD speeds; strongest AI performance; Wi-Fi 7 | Premium pricing; overkill for basic tasks |
+| **Model**            | **Release** | **Starting Price** | **CPU Performance vs M1**  | **GPU Performance**        | **Key Merit**                                                         | **Key Drawback**                                            |
+| -------------------- | ----------- | ------------------ | -------------------------- | -------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **M1 Pro**           | Oct 2021    | ~$2,000*           | Baseline (1.0x)            | Baseline                   | Pioneering Apple Silicon; excellent value                             | Limited AI capabilities; older thermal design               |
+| **M2 Pro**           | Jan 2023    | ~$2,000*           | +20% faster                | +41% faster                | Better efficiency; improved thermal performance                       | Minimal leap from M1; incremental gains                     |
+| **M3 Pro**           | Nov 2023    | ~$2,000*           | +50% faster                | +45% faster                | Hardware ray tracing for 3D work; first-gen dynamic cache             | Reduced memory bandwidth vs M2; lower Pro specs than M2 Max |
+| **M4 Pro**           | May 2024    | ~$2,000*           | +65% faster                | +75% faster                | Huge AI jump (38 TOPS); best gaming performance yet                   | Gets hot under sustained load                               |
+| **M5 Pro (current)** | Mar 2026    | $2,199             | **~2x faster than M1 Pro** | **~2x faster than M1 Pro** | Thunderbolt 5; up to 2x SSD speeds; strongest AI performance; Wi-Fi 7 | Premium pricing; overkill for basic tasks                   |
 
 *Prices adjusted for inflation; M5 Pro is official current pricing. Older models available used at lower prices.
 

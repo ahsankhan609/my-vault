@@ -42,16 +42,17 @@ docker images
 #### Run locally downloaded image as container
 it will run the **image inside a container**. we can see container name, id inside the docker desktop app.
 ```bash
-docker run nginx;latet
+docker run nginx:latet
 ```
 to run container in the **detached mode**, where it do not show logs on the screen. it is recommended to run images in **detached mode**
 ```bash
 docker run -d nginx:latest
 ```
-every time we run an images, docker always create a new container with new identity, but if don't want to do so
+every time we run an image, docker always create a new container with new identity, but if we don't want to do so
 ```bash
 docker start id_of_the_stopped_container
 ```
+if we run 
 #### Show list of all running  or stopped containers
 ```bash
 docker ps -a

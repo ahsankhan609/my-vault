@@ -4,8 +4,11 @@
 ![Pasted image 20260603145956.png](../../Attachments/Pasted%20image%2020260603145956.png)
 
 ![Pasted image 20260603150111.png](../../Attachments/Pasted%20image%2020260603150111.png)
+
 it helps us to make a single package including all software components, packages, configurations and tools for development and deployment on server.
+
 ![Pasted image 20260603150245.png](../../Attachments/Pasted%20image%2020260603150245.png)
+
 this package is then called container.
 
 ### why docker is important?

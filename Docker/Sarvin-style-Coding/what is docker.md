@@ -1,10 +1,10 @@
 ### introduction
 
-![[Pasted image 20260603145956.png]]
+![Pasted image 20260603145956.png](../../Attachments/Pasted%20image%2020260603145956.png)
 [Playlist - Youtube](https://www.youtube.com/playlist?list=PLMbK063QE0JYpb2oFfj7KT868kp5QKSqr)
-![[Pasted image 20260603150111.png]]
+![Pasted image 20260603150111.png](../../Attachments/Pasted%20image%2020260603150111.png)
 it helps us to make a single package including all software components, packages, configurations and tools for development and deployment on server.
-![[Pasted image 20260603150245.png]]
+![Pasted image 20260603150245.png](../../Attachments/Pasted%20image%2020260603150245.png)
 this package is then called container.
 
 ### why docker is important?
@@ -12,7 +12,7 @@ how docker make our work faster and easier?
 1. imagine someone join our team without docker
 2. he takes hours to setup his machine for the required environment. such as installing databases, software's, packages etc...
 
-![[Pasted image 20260603150923.png]] ![[Pasted image 20260603151034.png]]
+![Pasted image 20260603150923.png](../../Attachments/Pasted%20image%2020260603150923.png) ![Pasted image 20260603151034.png](../../Attachments/Pasted%20image%2020260603151034.png)
 
 ### mange containers like a pro
 * choosing lightweight image
@@ -21,10 +21,10 @@ how docker make our work faster and easier?
 * how to run, manage and delete container
 * how to debug container
 
-![[Pasted image 20260603151916.png]]
-![[Pasted image 20260603151933.png]]
-![[Pasted image 20260603150245.png]]
-![[Pasted image 20260603152107.png]]
+![Pasted image 20260603151916.png](../../Attachments/Pasted%20image%2020260603151916.png)
+![Pasted image 20260603151933.png](../../Attachments/Pasted%20image%2020260603151933.png)
+![Pasted image 20260603150245.png](../../Attachments/Pasted%20image%2020260603150245.png)
+![Pasted image 20260603152107.png](../../Attachments/Pasted%20image%2020260603152107.png)
 so, where we get those images such as database, OS, webserver, MySQL instances. We will use GitHub like repository manger called [Docker Hub](https://hub.docker.com/). It is basically an app store for Docker images.
 
 #### Checks whether docker client and server is running properly

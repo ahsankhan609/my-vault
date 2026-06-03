@@ -8,19 +8,19 @@
 4. In the new page, click "Personal access tokens" in the left sidebar
 5. Click "Tokens (classic)"
 6. Click "Generate new token" → "Generate new token (classic)"
-![[Pasted image 20260528111934.png]]
+![Pasted image 20260528111934.png](../Attachments/Pasted%20image%2020260528111934.png)
 Add new fine-grained token to give access to particular private repo:
-![[Pasted image 20260528113439.png]]
+![Pasted image 20260528113439.png](../Attachments/Pasted%20image%2020260528113439.png)
 Now generate token
-![[Pasted image 20260528113652.png]]
+![Pasted image 20260528113652.png](../Attachments/Pasted%20image%2020260528113652.png)
 now it will generate token here
 >[!warning]
 >Now save it somewhere safe. because its not going to show it here again
-![[Pasted image 20260528113734.png]]
+![Pasted image 20260528113734.png](../Attachments/Pasted%20image%2020260528113734.png)
 
 Now get repo link again - add token to the link
-![[Pasted image 20260528114029.png]]
-![[Pasted image 20260528114131.png]]
+![Pasted image 20260528114029.png](../Attachments/Pasted%20image%2020260528114029.png)
+![Pasted image 20260528114131.png](../Attachments/Pasted%20image%2020260528114131.png)
 
 ### How to handle tokens properly?
 Great question. Here's what to do:

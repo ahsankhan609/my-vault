@@ -35,11 +35,15 @@ docker version
 ```bash
 docker pull nginx:latest
 ```
-#### List all locally stored Images
+#### List all locally stored(downloaded) Images
 ```bash
 docker images
 ```
-#### Run locally downloaded image as container
+#### Show list of all running or stopped containers
+```bash
+docker ps -a
+```
+#### Run locally downloaded image as container - different ways
 it will run the **image inside a container**. we can see container name, id inside the docker desktop app.
 ```bash
 docker run nginx:latet
@@ -52,10 +56,27 @@ every time we run an image, docker always create a new container with new identi
 ```bash
 docker start id_of_the_stopped_container
 ```
-if we run 
-#### Show list of all running  or stopped containers
+if we run multiple containers, sometime there is a conflict of running on same ports. Because containers have there own server and ports. and host system communicate with containers through those ports. For example assign 8080 to one container and 801 to another container. So to map each container on different port we do this:
 ```bash
-docker ps -a
+docker run -d -p 8080:80 nginx:latest
+```
+we can verify through opening in browser:
+https://localhost:8080
+run same container with the name, detached mode, and mapped port
+```bash
+docker run -d --name nginx-local -p 8080:80 <image-name-or-id>
+```
+then if we need to run 2nd time, do this:
+```bash
+docker start nginx-local
+```
+stop re-used container:
+```bash
+docker stop nginx-local
+```
+see logs of that named container:
+```bash
+docker logs -f nginx-local
 ```
 #### Stop container from running - Docker Desktop - Terminal - detached
 1. we can open docker desktop app
@@ -67,4 +88,39 @@ ctrl+c
 4. if container is running in detached mode, then to stop it, do this:
 ```bash
 docker stop id_of_the_container
+```
+stop Named container:
+```bash
+docker stop nginx-local
+```
+
+#### removing Container(s) or Image(s)
+1. in docker desktop we can simply remove containers and images by pressing delete button in **Actions** menu.
+2. First **Stop the container** from running
+```bash
+docker stop NAME
+```
+3. write container name to **remove** it forcefully, if it is running
+```bash
+docker rm -f NAME
+```
+It removes all containers 
+```bash
+docker container prune
+```
+4. After stopping and deleting the container, we remove them Image. for example if another containers are using this image, that might be running, so we use `-f` flag to forcefully remove the image.
+```bash
+docker rmi -f image-name
+```
+remove all un-used images after confirmation
+```bash
+docker image prune
+```
+### running shell inside container
+```bash
+docker run NAME
+```
+
+```bash
+docker exec -it NAME /bin/sh
 ```

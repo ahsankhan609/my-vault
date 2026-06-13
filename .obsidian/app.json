@@ -1,9 +1,0 @@
-{
-  "attachmentFolderPath": "Attachments",
-  "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": true,
-  "showLineNumber": true,
-  "rightToLeft": false,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true
-}

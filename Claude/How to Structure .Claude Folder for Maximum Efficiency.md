@@ -1,15 +1,13 @@
 ---
-title: "How to Configure Claude Code for Real Projects: A Practical Guide to Instructions, Rules, Hooks, Skills, and Permissions"
 source: https://levelup.gitconnected.com/how-to-structure-claude-folder-for-maximum-efficiency-c26ef3f552ba
 author:
   - "[[Youssef Hosni]]"
 published: 2026-04-10
 created: 2026-05-29
-description: “” is published by Youssef Hosni in Level Up Coding.
-tags:
+description: "How to Configure Claude Code for Real Projects: A Practical Guide to Instructions, Rules, Hooks, Skills, and Permissions"
+aliases:
+  - claude-project-structure
 ---
-## How to Configure Claude Code for Real Projects: A Practical Guide to Instructions, Rules, Hooks, Skills, and Permissions
-
 Most Claude Code users know the**.claude/** folder exists, but far fewer think carefully about how it should be organized.
 
 At first, that usually does not seem like a problem. A small project can get by with a basic **CLAUDE.md**, a few settings, and maybe one or two extra files. But as the project grows, that casual setup starts to show its limits. Instructions become harder to maintain, workflows get scattered across the wrong places, and the folder slowly turns into a mix of useful configuration and hard-to-explain clutter.

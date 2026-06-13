@@ -1,6 +1,13 @@
+---
+title: CLAUDE Commands - Cheat Sheet
+aliases:
+  - claude-commands
+---
 > [!important] Keep in Mind
 > * use (/) before every Claude command in Claude CLI
-> * use (@) to tag file in Claude CLI
+> * use (@) to tag folder or file in Claude CLI
+> * use : @folder-name:file-name
+> * refer to line number - @folder-name:file-name#line-number
 
 | Command       | Usecase                                                                                                        | Notes                                                                                                                                                                                                                                                                                                                      |
 | ------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

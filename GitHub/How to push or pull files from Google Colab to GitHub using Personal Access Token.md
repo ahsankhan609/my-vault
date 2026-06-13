@@ -35,7 +35,7 @@ Related Stuff:
 
 1. Generate Access Token
 ```python
-token = "ghp_PedTT6XJx8cEZzcB3J35Xp8Q0z4fRa1PZN9t"
+token = "personal-access-token-is-here"
 ```
 
 2. Add user email and name to config
@@ -61,7 +61,7 @@ repo = "DemoBinary"
 ```bash
 !git clone https://{token}@github.com/{username}/{repo}
 
-# !git clone https://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@github.com/binary-study/DemoBinary
+# !git clone https://personal-access-token-is-here@github.com/binary-study/DemoBinary
 ```
 
 4. Change Current working directory to New Cloned repository

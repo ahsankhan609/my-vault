@@ -14,15 +14,29 @@ tags:
 [UV Cheat Sheet](https://yonesuke.github.io/cheatsheet/cheatsheet_ruff.html)
 
 
-| Commands                  | Description                                                                    | Use case                    |
-| ------------------------- | ------------------------------------------------------------------------------ | --------------------------- |
-| `uv init`                 | initialize project with a name                                                 | `uv init <project_name>`    |
-| `uv init . `              | initialize current proejct as uv managed project                               | `uv init .`                 |
-| `uv init --python 3.14.5` | initiate current project with python verson                                    | `uv init --python 3.14.5 .` |
-| `uv add <package_name>`   | add package to the current environment. if no environment, then it creates one | `uv add fastapi`            |
-| `uv add pytest --dev`     | install dependencies for the development environment                           | `uv add --dev pytest ruff`  |
-| `uv sync`                 | sync all dependencies with project                                             | `uv sync`                   |
-| `uv sync --upgrade`       | upgrade all dependencies in the project                                        | `uv sync --upgrade`         |
+| Commands                                                             | Description                                                                    | Use case                                                                                                              |
+| :------------------------------------------------------------------- | :----------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| ==Initialize Project==                                               |                                                                                |                                                                                                                       |
+| `uv init`                                                            | initialize project with a name                                                 | `uv init <project_name>`                                                                                              |
+| `uv init . `                                                         | initialize current proejct as uv managed project                               | `uv init .`                                                                                                           |
+| `uv init --python 3.14.5`                                            | initiate current project with python verson                                    | `uv init --python 3.14.5 .`                                                                                           |
+| `uv init project_name --python 3.14.5`                               | initialize project with a name, and with specific python version               | when you need to initialize new project with structure and with specific python version.                              |
+| ==Adding - Installing Packages==                                     |                                                                                |                                                                                                                       |
+| `uv add <package_name>`                                              | add package to the current environment. if no environment, then it creates one | `uv add fastapi`                                                                                                      |
+| `uv add pytest --dev`                                                | install dependencies for the development environment                           | `uv add --dev pytest ruff`                                                                                            |
+| `uv add -r requirements.txt`                                         | Install dependencies from `requirements.txt`                                   |                                                                                                                       |
+| ==Running Script - Project==                                         |                                                                                |                                                                                                                       |
+| `uv run main.py`                                                     | Run `project file`                                                             |                                                                                                                       |
+| `uv run app.py`                                                      | Run `single script file`                                                       |                                                                                                                       |
+| `uv run --with ‘flask’ —-with ‘pandas’ —-with ‘requests’ app.py`     | Run `single app.py` file, with dependencies on the fly                         | it is used when yo not need to install and dependency and just need to run the file with all dependencies on the fly. |
+| `uv add —-script app.py ‘pkg1’ ‘pkg2’ ‘pkg3’`<br><br>`uv run app.py` | Run `single script` with dependencies<br><br><br>then run the `script file`    | it is used when we do not need to install dependencies, but we decorate them on the `top of page`.                    |
+| ==Updating Packages==                                                |                                                                                |                                                                                                                       |
+| `uv sync`                                                            | sync all dependencies with project                                             | `uv sync`                                                                                                             |
+| `uv sync --upgrade`                                                  | upgrade all dependencies in the project                                        | `uv sync --upgrade`                                                                                                   |
+| `uv lock --upgrade`                                                  | Upgrade all in `lock` file                                                     |                                                                                                                       |
+| ==Uninstall - Remove Package==                                       |                                                                                |                                                                                                                       |
+| `uv remove package_name`                                             | remove or uninstall dependency from project and update `pyproject.tmol`        |                                                                                                                       |
+| `uv remove —-script app.py ‘pkg1’ ‘pkg2’`                            | Remove `package` from the `script` file                                        |                                                                                                                       |
 
 ### Configuration - pyproject.toml
 

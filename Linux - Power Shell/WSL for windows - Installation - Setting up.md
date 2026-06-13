@@ -5,9 +5,11 @@ tags:
   - bash
   - commands
   - shortcuts
+aliases:
+  - wsl-commands
 ---
 [10 Bash History Shortcuts Every Linux User Should Know](10%20Bash%20History%20Shortcuts%20Every%20Linux%20User%20Should%20Know.md)
-[Power Shell Commands](Power%20Shell%20Commands.md)
+[Power Shell Commands - Equal to Linux Commands](Power%20Shell%20Commands%20-%20Equal%20to%20Linux%20Commands.md)
 
 | Command                                | use case | Description                                                                            |
 | -------------------------------------- | -------- | -------------------------------------------------------------------------------------- |

@@ -786,7 +786,7 @@ Related Courses:
 
 Related Tutorials:
 
-- [[Managing Python Projects With uv An All-in-One Solution]]
+- [[Managing Python Projects With UV - An All-in-One Solution]]
 - [Python and TOML: Read, Write, and Configure with tomllib](https://realpython.com/python-toml/?utm_source=realpython&utm_medium=web&utm_campaign=related-post&utm_content=python-pyproject-toml)
 - [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/?utm_source=realpython&utm_medium=web&utm_campaign=related-post&utm_content=python-pyproject-toml)
 - [Python's pathlib Module: Taming the File System](https://realpython.com/python-pathlib/?utm_source=realpython&utm_medium=web&utm_campaign=related-post&utm_content=python-pyproject-toml)

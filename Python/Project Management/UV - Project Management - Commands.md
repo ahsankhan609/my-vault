@@ -9,7 +9,7 @@ tags:
   - python
   - intermediate
 ---
-[Managing Python Projects With uv An All-in-One Solution](RealPython/Managing%20Python%20Projects%20With%20uv%20An%20All-in-One%20Solution.md)
+[Managing Python Projects With UV - An All-in-One Solution](../../RealPython/Managing%20Python%20Projects%20With%20UV%20-%20An%20All-in-One%20Solution.md)
 
 [UV Cheat Sheet](https://yonesuke.github.io/cheatsheet/cheatsheet_ruff.html)
 

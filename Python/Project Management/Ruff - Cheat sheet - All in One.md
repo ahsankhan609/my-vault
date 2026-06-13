@@ -15,6 +15,9 @@ uv add --dev ruff
 ```
 
 [Installing Ruff from Official Source](https://docs.astral.sh/ruff/installation/)
+[UV - Project Management - Commands](UV%20-%20Project%20Management%20-%20Commands.md)
+[Managing Python Projects With UV - An All-in-One Solution](../../RealPython/Managing%20Python%20Projects%20With%20UV%20-%20An%20All-in-One%20Solution.md)
+
 
 | ==Check Files and fix errors== |                                                                  |                                                                                                          |
 | ------------------------------ | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |

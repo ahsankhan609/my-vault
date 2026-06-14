@@ -8,8 +8,8 @@ tags:
   - shortcuts
   - commands
   - power-shell
-blog: https://linuxvox.com/blog/how-to-create-bash-aliases/
-YT: https://sysadminsage.com/how-to-create-alias-in-linux/
+blog-1: https://linuxvox.com/blog/how-to-create-bash-aliases/
+blog-2: https://sysadminsage.com/how-to-create-alias-in-linux/
 ---
 **Listing Aliases**
 

@@ -1,3 +1,5 @@
+[add SSH from Linux to GitHub](add%20SSH%20from%20Linux%20to%20GitHub.md)
+
 ![PAT](https://www.youtube.com/watch?v=IuiH6cBtc58)
 
 ![Setup SSH for Github Account](https://www.youtube.com/watch?v=A4usVjplxbU)

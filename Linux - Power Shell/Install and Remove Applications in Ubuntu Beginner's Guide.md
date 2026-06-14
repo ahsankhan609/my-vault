@@ -8,9 +8,10 @@ created: 2026-05-26
 description: This detailed guide shows you various ways to install applications on Ubuntu Linux, and it also demonstrates how to remove installed software from Ubuntu.
 tags:
   - commands
+  - linux
+aliases:
+  - remove-from-linux
 ---
-[![Warp Terminal](https://itsfoss.com/assets/images/warp.webp)](https://www.warp.dev/?utm_source=its_foss&utm_medium=display&utm_campaign=linux_launch "Blocked (specific): a[href^=\"https://www.warp.dev\"]")
-
 When you [switch to Linux](https://itsfoss.com/reasons-switch-linux-windows-xp/), the experience could be overwhelming at the start. Even basic things like installing applications on Ubuntu may seem confusing.
 
 Don’t worry. Linux provides so many ways to do the same task that it’s only natural to feel lost, at least at the beginning. You are not alone. We’ve all been at that stage.

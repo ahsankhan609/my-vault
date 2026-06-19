@@ -1,3 +1,10 @@
+---
+title: GitHub access token for Private Repos
+description: how to generate github access token, and then access private repos from anywhere
+aliases:
+  - github-access-token
+  - private-repo
+---
 [add SSH from Linux to GitHub](add%20SSH%20from%20Linux%20to%20GitHub.md)
 
 ![PAT](https://www.youtube.com/watch?v=IuiH6cBtc58)

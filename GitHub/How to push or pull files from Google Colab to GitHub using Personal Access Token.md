@@ -9,6 +9,7 @@ course-url: https://www.binarystudy.com/2025/01/how-to-pushpull-files-from-googl
 ---
 Related Stuff:
 [GitHub Access Tokens - How To Use Them Properly for Private repos - NeuralNine](GitHub%20Access%20Tokens%20-%20How%20To%20Use%20Them%20Properly%20for%20Private%20repos%20-%20NeuralNine.md)
+[add SSH from Linux to GitHub](add%20SSH%20from%20Linux%20to%20GitHub.md)
 
 ### Steps
 1. Generate **Personal Access Token** at [GitHub](https://www.github.com)

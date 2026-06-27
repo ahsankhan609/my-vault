@@ -11,7 +11,7 @@ tags:
   - tools
   - linux
 aliases:
-  - ssh
+  - ssh-agent-setup
 ---
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*y5cjUx7OTjDDAk28TnThRQ.png)
 

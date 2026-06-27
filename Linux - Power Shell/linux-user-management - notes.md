@@ -374,4 +374,4 @@ su - john   # یا logout/login
 
 ---
 
-*🔗 Related Notes: [[File Management]] | [[Permissions & chmod]] | [[SSH & Remote Access]]*
+*🔗 Related Notes: [[File Management]] | [[Permissions & chmod]] | [[../Secure Shell (SSH) & Remote Access]]*
